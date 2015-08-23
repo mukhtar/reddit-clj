@@ -1,14 +1,13 @@
 {% extends "base.html" %}
 {% block content %}
-  <div class="jumbotron">
-    <h1>Welcome to reddit-clj</h1>
-    <p>Time to start building your site!</p>
-    <p><a class="btn btn-primary btn-lg" href="http://luminusweb.net">Learn more &raquo;</a></p>
-  </div>
-
-  <div class="row">
+ <div class="row">
     <div class="span12">
-    {{docs|markdown}}
+      <ul>
+        {% for item in items %}
+        <li> {{item.score}} | <a href="{{item.url}}">{{item.title}}</a></li>
+        {% endfor %}
+      </ul>
+
     </div>
   </div>
 {% endblock %}

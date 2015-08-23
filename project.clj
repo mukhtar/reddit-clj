@@ -22,8 +22,8 @@
                  [org.clojure/tools.nrepl "0.2.10"]
                  [org.webjars/bootstrap "3.3.5"]
                  [org.webjars/jquery "2.1.4"]
-                 [org.immutant/web "2.0.2"]]
-
+                 [org.immutant/web "2.0.2"]
+                 [clj-http "1.0.0"]]
   :min-lein-version "2.0.0"
   :uberjar-name "reddit-clj.jar"
   :jvm-opts ["-server"]

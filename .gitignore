@@ -9,3 +9,6 @@ pom.xml
 profiles.clj
 /.env
 *.log
+reddit_clj.iml
+.idea/
+.nrepl-port
